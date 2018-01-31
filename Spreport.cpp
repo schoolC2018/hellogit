@@ -16,7 +16,7 @@ Sreport::Sreport(float s, char s1, string s2, int s3)
 	   GPA =s;
 	}
 
-	float Sreport :: getsGPA() const
+	float Sreport::getsGPA() const
 	{
 	   return GPA;
 	}
@@ -26,7 +26,7 @@ Sreport::Sreport(float s, char s1, string s2, int s3)
 	   grade =s1;
 	}
 
-	char Sreport :: getsgrade() const
+	char Sreport::getsgrade() const
 	{
 	   return grade;
 	}
@@ -46,7 +46,7 @@ Sreport::Sreport(float s, char s1, string s2, int s3)
 	   GPA =s3;
 	}
 
-	int Sreport :: getsiDNO() const
+	int Sreport::getsiDNO() const
 	{
 	   return iDNO;
 	}
