@@ -2,6 +2,7 @@
 #ifndef SREPORT_H
 #define SREPORT_H
 
+
 #include<iostream>
 #include<string>
 
@@ -11,11 +12,12 @@ class Sreport
 	{
 	  private:
 		float GPA;
-		char grade;
+		char grade= ' ';
 		string major;
 		int iDNO;
 	public:
-	Sreport(float s, char s1, string s2, int s3)
+
+	Sreport(float s, char s1, string s2, int s3);
 	
 	void setsGPA (float s);
 	float getsGPA () const;
@@ -28,5 +30,6 @@ class Sreport
 	
 	void setsiDNO (float s3);
 	float getiDNO () const;
+
 };
 #endif//SREPORT_H
