@@ -3,7 +3,7 @@
 
 #include "Sreport.h"
 
-Sreport::Sreport(float s, char s1, string s2, int s3);
+Sreport::Sreport(float s, char s1, string s2, int s3)
 	{
 		GPA= s;
 		grade =s1;
@@ -36,7 +36,7 @@ Sreport::Sreport(float s, char s1, string s2, int s3);
 	   major =s2;
 	}
 
-	string Sreport :: getmajor() const
+	string Sreport::getmajor() const
 	{
 	   return major;
 	}
@@ -50,7 +50,7 @@ Sreport::Sreport(float s, char s1, string s2, int s3);
 	{
 	   return iDNO;
 	}
-}
+
 
 
 	
