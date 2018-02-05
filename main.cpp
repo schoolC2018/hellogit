@@ -24,7 +24,7 @@ int main()
 
 	info.push_back(r3);
 
-	info.push_back({4.0,'B+'accounting,4270062});
+	info.push_back({4.0,'B'accounting,4270062});
 
 	count << " Student Report Transcript";
 	int transcript;

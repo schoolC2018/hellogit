@@ -29,7 +29,7 @@ class Sreport
 	string getsmajor () const;
 	
 	void setsiDNO (float s3);
-	float getiDNO () const;
+	float getsiDNO () const;
 
 };
 #endif//SREPORT_H
