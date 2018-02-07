@@ -2,6 +2,13 @@
 //Sreport.cpp
 
 #include "Sreport.h"
+Sreport::Sreport()
+	{
+		GPA= 0.0;
+		grade =' ';
+		major = " ";
+		iDNO =0;
+       }
 
 Sreport::Sreport(float s, char s1, string s2, int s3)
 	{

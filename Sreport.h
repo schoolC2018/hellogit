@@ -17,19 +17,20 @@ class Sreport
 		int iDNO;
 	public:
 
+	Sreport();
 	Sreport(float s, char s1, string s2, int s3);
 	
-	void setsGPA (float s);
-	float getsGPA () const;
+	void setGPA (float s);
+	float getGPA () const;
 
-	void setsgrade (float s1);
-	char getsgrade () const;
+	void setgrade (char s1);
+	char getgrade () const;
 
-	void setsmajor (float s2);
-	string getsmajor () const;
+	void setmajor (string s2);
+	string getmajor () const;
 	
-	void setsiDNO (float s3);
-	float getsiDNO () const;
+	void setiDNO (int s3);
+	int getiDNO () const;
 
 };
 #endif//SREPORT_H

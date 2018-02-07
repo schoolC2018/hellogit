@@ -12,9 +12,9 @@ int main()
 
 	  Sreport r1;
 
-	  Sreport r2 = {3.38,'A',information_Technology,6183247};
+	  Sreport r2 = {3.38,'A',"Information_Technology",6183247};
 
-	  Sreport r3 = {4.0,information_Technology};
+	  Sreport r3 = {4.0,'C',"Information_Technology",9874521};
 
 	   vector<Sreport> info;
 
@@ -24,15 +24,15 @@ int main()
 
 	info.push_back(r3);
 
-	info.push_back({4.0,'B'accounting,4270062});
+	info.push_back({4.0,'B',"Accounting",4270062});
 
-	count << " Student Report Transcript";
+	cout << " Student Report Transcript ";
 	int transcript;
 	cin>>transcript;
 
 	for(int i=0; i<info.size(); i++)
 	{
-	  cout<< info[i].getsGPA()<<" "<< info[i].getsgrade()<< " "<< info[i].getsmajor()<<" "<< 		  info[i].getsiDNO()<<endl;
+	  cout<< info[i].getGPA()<<" " << info[i].getgrade()<< " "<< info[i].getmajor()<<" "<< 		  info[i].getiDNO()<<endl;
        }
 }
 
